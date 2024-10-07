@@ -3,10 +3,10 @@ kind: ConfigMap
 metadata:
   name: env-configmap
 data:
-  POSTGRES_HOST: cdr.cbbgzpxbiqfe.us-east-1.rds.amazonaws.com
+  POSTGRES_HOST: database-1.c7eggku0wuah.us-east-1.rds.amazonaws.com
   POSTGRES_DB: postgres
   AWS_REGION: us-east-1
   AWS_PROFILE: default
-  AWS_BUCKET: pro3-196343632393
+  AWS_BUCKET: tientranudacity
   JWT_SECRET: testing
   URL: localhost:8100

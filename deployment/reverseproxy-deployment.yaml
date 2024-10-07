@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: reverseproxy
-          image: tamokinguyen/reverseproxy:v1
+          image: tienjtran/udagram-reverseproxy:v1
           ports:
             - containerPort: 8080
           envFrom:
